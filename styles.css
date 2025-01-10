@@ -236,6 +236,10 @@ nav {
   color: var(--text-dark);
 }
 
+.ydot{
+  color: #8a79f0;
+}
+
 .header__form input {
   width: 100%;
   outline: none;
