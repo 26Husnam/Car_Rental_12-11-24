@@ -169,6 +169,7 @@ nav {
   position: relative;
   isolation: isolate;
   overflow: hidden;
+  border-radius: 3rem 0 0 3rem;
 }
 
 .header__image::before {
@@ -229,31 +230,32 @@ nav {
   display: grid;
   gap: 10px;
 }
-
-.header__form label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-dark);
+.fa-rocket{
+  color: #B197FC;
+  font-size: 4rem;
+}
+.fa-chart-line{
+  color: #B197FC;
+  font-size: 4rem;
+}
+.fa-money-check-dollar{
+  color: #B197FC;
+  font-size: 4rem;
 }
 
 .ydot{
   color: #8a79f0;
 }
 
-.header__form input {
-  width: 100%;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  color: var(--text-light);
+.fa-face-smile-beam{
+  color: #B197FC;
+  font-size: 4rem;
+  
 }
-
-.header__form input::placeholder {
+.form-text{
   color: var(--text-light);
-}
-
-.header__form .btn {
-  padding: 15px 17px;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 .about__container .section__description {
