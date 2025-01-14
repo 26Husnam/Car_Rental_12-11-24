@@ -60,7 +60,9 @@
 }
 
 .logo img {
-  max-width: 35px;
+  max-width: 100px;
+  height: auto;
+  width: auto;
 }
 
 .logo span {
@@ -713,7 +715,7 @@ nav {
 }
 
 .footer__logo img {
-  max-width: 45px;
+  max-width: 150px;
 }
 
 .footer__logo span {
@@ -770,9 +772,9 @@ nav {
 .footer__links span {
   display: inline-block;
   margin-right: 10px;
-  padding: 4px 6px;
-  border: 1px solid var(--extra-light);
-  border-radius: 100%;
+  /* padding: 4px 6px; */
+  /* border: 1px solid var(--extra-light); */
+  /* border-radius: 100%; */
 }
 
 .footer__links a:hover span {
@@ -824,7 +826,7 @@ nav {
   }
 
   .nav__logo img {
-    max-width: 45px;
+    max-width: 150px;
   }
 
   .nav__logo .logo-dark {
@@ -993,7 +995,7 @@ nav {
   }
 
   .footer__container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

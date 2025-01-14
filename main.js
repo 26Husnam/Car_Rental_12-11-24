@@ -47,62 +47,6 @@ ScrollReveal().reveal(".about__card", {
   interval: 500,
 });
 
-// const tabs = document.querySelector(".deals__tabs");
-
-// tabs.addEventListener("click", (e) => {
-//   const tabContents = document.querySelectorAll(
-//     ".deals__container .tab__content"
-//   );
-//   Array.from(tabs.children).forEach((item) => {
-//     if (item.dataset.id === e.target.dataset.id) {
-//       item.classList.add("active");
-//     } else {
-//       item.classList.remove("active");
-//     }
-//   });
-//   tabContents.forEach((item) => {
-//     if (item.id === e.target.dataset.id) {
-//       item.classList.add("active");
-//     } else {
-//       item.classList.remove("active");
-//     }
-//   });
-// });
-
-// ScrollReveal().reveal(".choose__image img", {
-//   ...scrollRevealOption,
-//   origin: "left",
-// });
-// ScrollReveal().reveal(".choose__content .section__header", {
-//   ...scrollRevealOption,
-//   delay: 500,
-// });
-// ScrollReveal().reveal(".choose__content .section__description", {
-//   ...scrollRevealOption,
-//   delay: 1000,
-// });
-// ScrollReveal().reveal(".choose__card", {
-//   duration: 1000,
-//   delay: 1500,
-//   interval: 500,
-// });
-
-// ScrollReveal().reveal(".subscribe__image img", {
-//   ...scrollRevealOption,
-//   origin: "right",
-// });
-// ScrollReveal().reveal(".subscribe__content .section__header", {
-//   ...scrollRevealOption,
-//   delay: 500,
-// });
-// ScrollReveal().reveal(".subscribe__content .section__description", {
-//   ...scrollRevealOption,
-//   delay: 1000,
-// });
-// ScrollReveal().reveal(".subscribe__content form", {
-//   ...scrollRevealOption,
-//   delay: 1500,
-// });
 
 // FAQ functionality
 document.addEventListener("DOMContentLoaded", () => {
